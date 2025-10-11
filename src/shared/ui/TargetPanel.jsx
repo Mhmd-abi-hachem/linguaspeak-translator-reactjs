@@ -52,7 +52,7 @@ function TargetPanel({
             className="w-8 h-8 sm:w-9 sm:h-9 md:w-11 md:h-11"
             onClick={() => handleAudioPlayback(targetText, selectedLanguage)}
           />
-          <div className="flex  items-center  cursor-pointer ">
+          <div className="flex items-center cursor-pointer ">
             <IconCopy
               className="w-8 h-8 sm:w-9 sm:h-9 md:w-11 md:h-11"
               onClick={handleCopyToClipboard}

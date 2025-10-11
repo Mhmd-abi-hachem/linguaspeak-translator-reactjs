@@ -6,7 +6,7 @@ function DotBackground({ children }) {
         <div className="absolute inset-0 bg-[#f9f6f6f8] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] opacity-90" />
       </div>
 
-      <div className="relative z-10 flex flex-col items-center justify-center w-full h-full">
+      <div className="relative z-10 flex flex-col items-center justify-center w-full h-full px-6">
         {children}
       </div>
     </div>
