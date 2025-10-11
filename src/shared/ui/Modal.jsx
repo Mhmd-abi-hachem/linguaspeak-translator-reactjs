@@ -12,6 +12,7 @@ function Modal({ children, onClose }) {
       document.body.style.overflow = originalStyle;
     };
   }, []);
+
   const content = (
     <div
       className="fixed top-0 left-0 w-full h-screen bg-black/[0.08] backdrop-blur-[40px] z-[1000] transition-all duration-500 overflow-hidden"
@@ -23,7 +24,7 @@ function Modal({ children, onClose }) {
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-[#777] text-6xl leading-none"
+          className="absolute top-2 right-4 sm:right-6 text-[#777] text-[3.5rem] sm:text-6xl leading-none"
         >
           &times;
         </button>
